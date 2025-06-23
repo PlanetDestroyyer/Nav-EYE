@@ -7,17 +7,6 @@
 
 ---
 
-## 📁 Project Structure
-
-
-├── README.md               # Project documentation
-├── requirements.txt        # Python dependencies
-├── rpi_code/              # Code running on the Raspberry Pi
-│   └── main.py            # Captures video and sends it to the server
-└── server/                # Backend server for object detection & response
-    └── app.py             # Flask-based backend using YOLO and LLM
-
-
 ---
 
 ## 🛠️ Requirements
