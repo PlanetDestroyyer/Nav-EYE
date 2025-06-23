@@ -1,4 +1,4 @@
-```markdown
+
 # Nav-Eye 🚶‍♂️🦯🔍
 
 **Nav-Eye** is an AI-powered assistive system designed to help visually impaired individuals navigate their surroundings. It uses a Raspberry Pi-based edge device to capture real-time video, which is sent to a backend server for object detection and scene understanding. The results are conveyed to the user via audio feedback.
@@ -9,14 +9,14 @@
 
 ## 📁 Project Structure
 
-```plaintext
+
 ├── README.md               # Project documentation
 ├── requirements.txt        # Python dependencies
 ├── rpi_code/              # Code running on the Raspberry Pi
 │   └── main.py            # Captures video and sends it to the server
 └── server/                # Backend server for object detection & response
     └── app.py             # Flask-based backend using YOLO and LLM
-```
+
 
 ---
 
